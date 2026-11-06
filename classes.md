@@ -61,6 +61,11 @@
 **Champion: Peter Musili**
 1. Peter Musili
 
+## Class of 1988
+**Champion: Peter Musili**
+1. Peter Musili
+2. Munyoki Mbaluka
+
 ## Class of 1989
 **Champion: Dickson Mwali**
 1. Dickson Mwali
@@ -185,6 +190,7 @@
 2. Festus Ngui
 3. Muema Musyoka
 4. Kyalo Mutheke
+5. Kathina Kasina
 
 ## Class of 2002
 **Champion: Masya Mutemi**
@@ -350,6 +356,7 @@
 10. Muthui John
 11. Muthui Mailu
 12. Mwatha Mwangangi
+13. Munyoki Mbiti
 
 ## Class of 2009
 **Champion: Fred Maluki**
@@ -388,5 +395,24 @@
 
 ---
 
+## General / Unassigned
+1. Kyangu Mwendwa
+2. Mwendwa Ngwele
+3. Kilaa Kasina
+4. Musyoka Mwali
+5. Kaliwa Mwinzi
+6. Kimwele Muneeni
+7. Nyamu Mati
+8. Munuve Mati
+9. Ken Muthakye Ukulo
+10. Syengo Ukulo
+11. Duncan Kathumbi
+12. Ngui Kirigha
+13. Makau Mutheke
+14. Grace Muisyo
+15. Musili Mbaluka
+
+---
+
 ### Years still missing full lists (1975–2019)
-1976, 1977, 1980, 1981, 1982, 1983, 1984, 1986, 1988, 1991, 1992, 1995, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019
+1976, 1977, 1980, 1981, 1982, 1983, 1984, 1986, 1991, 1992, 1995, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2019

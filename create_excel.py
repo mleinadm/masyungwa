@@ -13,7 +13,7 @@ with open(INPUT_FILE, "r", encoding="utf-8") as f:
     content = f.read()
 
 # Find all "## Class of YYYY" sections (including those with no content)
-class_pattern = re.compile(r"^## Class of (\d{4})\s*$", re.MULTILINE)
+class_pattern = re.compile(r"^## (.+)$", re.MULTILINE)
 class_matches = list(class_pattern.finditer(content))
 
 # Also find the "Years still missing full lists" section
@@ -31,7 +31,12 @@ missing_years = [
 classes = []  # list of (year, champion_name_or_None, list_of_names)
 
 for i, match in enumerate(class_matches):
-    year = match.group(1)
+    year_raw = match.group(1).strip()
+    # Extract 4-digit year from "Class of YYYY" headers only
+    year_match = re.match(r"Class of (\d{4})", year_raw)
+    if not year_match:
+        continue  # skip non-class headers like "General / Unassigned"
+    year = year_match.group(1)
     start = match.end()
     # End is start of next section or end of file
     end = class_matches[i + 1].start() if i + 1 < len(class_matches) else len(content)
